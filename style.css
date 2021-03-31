@@ -1,33 +1,39 @@
-    html,
+html,
 body {
     height: 100%;
     margin: 0;
 }
 
 body {
-    background-image: url(https://www.google.com/search?q=let%27s+chat+background&sxsrf=ALeKk029B0a2gDDap9j0G9iREk0CP4OWnw:1616476546706&tbm=isch&source=iu&ictx=1&fir=xnRvPfUDd_sqsM%252Co3YfniQkSM7RAM%252C_&vet=1&usg=AI4_-kTOaoc35vnmQhJycdl1R_lc4lZksQ&sa=X&ved=2ahUKEwiIhuqy1MXvAhWEyzgGHb2PBuMQ9QF6BAgOEAE#imgrc=xnRvPfUDd_sqsM);
-    .header {
-        color: white;
-        font-family: 'Yeon Sung';
-        font-size: 45px;
-        letter-spacing: 10px;
-        margin-top: 80px;
-    }
-    .header img {
-        width: 80px;
-        margin-left: -15px;
-    }
-    .login_div {
-        background: rgba(255, 255, 255, 0.8);
-        float: none;
-        border-radius: 15px;
-    }
-    .logo {
-        width: 80px;
-        margin-top: 30px;
-        border-radius: 40px;
-    }
-    #login_button {
-        width: 80%;
-        border-radius: 15px;
-    }
+    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+.header {
+    color: white;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.login_div {
+    background: rgba(255, 255, 255, 0.8);
+    float: none;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#login_button {
+    width: 80%;
+    border-radius: 15px;
+}
