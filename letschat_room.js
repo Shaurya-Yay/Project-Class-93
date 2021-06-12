@@ -1,12 +1,14 @@
 const config = {
-    apiKey: "AIzaSyCjN5G10n1omf0GsRcjdi7ZvGErVG-bwKc",
-    authDomain: "let-s-chat-3df72.firebaseapp.com",
-    projectId: "let-s-chat-3df72",
-    storageBucket: "let-s-chat-3df72.appspot.com",
-    messagingSenderId: "621235520429",
-    appId: "1:621235520429:web:5e62235055c31add10d724",
-    measurementId: "G-CRFR9VLRCD"
+    apiKey: "AIzaSyAz9uW9JiLJ8und1Vniw6tzCovQ0esn3Ms",
+    authDomain: "lets-chat-830a8.firebaseapp.com",
+    databaseURL: "https://lets-chat-830a8-default-rtdb.firebaseio.com",
+    projectId: "lets-chat-830a8",
+    storageBucket: "lets-chat-830a8.appspot.com",
+    messagingSenderId: "1047268768037",
+    appId: "1:1047268768037:web:837d1559829a69297382cc",
+    measurementId: "G-9ZLKCYWG9H"
 };
+
 // Initialize Firebase
 firebase.initializeApp(config);
 
@@ -20,7 +22,7 @@ function addRoom() {
         purpose: "adding room name"
     });
     localStorage.setItem("room_name", room_name);
-    window.location = "index.html";
+    window.location = "letschat_page.html";
 }
 
 function getData() {
@@ -40,7 +42,7 @@ getData();
 function redirectToRoomName(name) {
     console.log(name);
     localStorage.setItem("room_name", name);
-    window.location = "";
+    window.location = "letschat_page.html";
 }
 
 function logout() {
